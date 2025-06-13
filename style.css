@@ -1,9 +1,18 @@
 /* Styling Only Related To ALL Pages */
 
+
+
+@font-face{
+        font-family:grr;
+          src: url(https://cdn.glitch.global/0d5a0386-354b-4084-b5c0-d41a9d5a80de/bank%20gothic%20medium%20bt.ttf?v=1748446506587)
+      }
+
+
 body {
+  width:70%;
+  margin:auto;
   padding-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
+  font-family:grr,sans-serif;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +22,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: orange;
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,7 +35,7 @@ ul.nav li {
 
 ul.nav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -42,4 +51,9 @@ ul.nav .active {
 
 h1 {
   width: 100%;
+}
+
+hr{
+  background-color:pink;
+  color:black;
 }
